@@ -1,0 +1,6 @@
+<configuration>
+    <bbox value="-96.64805980849468,40.752919832110166,-96.63958402800762,40.75769697500687"/>
+    <output-dir value="C:\Users\msela\OneDrive - University of Nebraska\UNL\Research\AV Research\AV_Behavior_Research\Phase 2 - Reworked\Simulation\2026-08-24-00-08-46"/>
+    <road-types value="{&quot;Highway&quot;: [&quot;motorway&quot;, &quot;motorway_link&quot;, &quot;trunk&quot;, &quot;trunk_link&quot;, &quot;primary&quot;, &quot;primary_link&quot;, &quot;secondary&quot;, &quot;secondary_link&quot;, &quot;track&quot;, &quot;footway&quot;, &quot;pedestrian&quot;, &quot;path&quot;], &quot;Railway&quot;: [], &quot;Aeroway&quot;: [], &quot;Waterway&quot;: [], &quot;Aerialway&quot;: [], &quot;Route&quot;: []}"/>
+    <gzip value="True"/>
+</configuration>

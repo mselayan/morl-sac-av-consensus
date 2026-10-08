@@ -1,0 +1,35 @@
+<routes>
+    <vType id="av" vClass="passenger" accel="1.87" decel="1.02" 
+           tau="1.55" minGap="5.22" length="4.5" maxSpeed="30" 
+           color="1,0,0"/>
+
+    <flow id="av_r1" type="av" begin="0" end="3600" vehsPerHour="10" 
+          departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 195499652#2 195499652#3 1104717793#1"/>
+    </flow>
+
+    <flow id="av_r2" type="av" begin="0" end="3600" vehsPerHour="10" 
+          departLane="best" departSpeed="max">
+        <route edges="195499637#0 195499637#4 195499689#1 195499631#0 1041264894"/>
+    </flow>
+
+    <flow id="av_r3" type="av" begin="0" end="3600" vehsPerHour="10" 
+          departLane="best" departSpeed="max">
+        <route edges="195499637#0 195499637#4 987806540#1 425465025"/>
+    </flow>
+
+    <flow id="av_r4" type="av" begin="0" end="3600" vehsPerHour="10" 
+          departLane="best" departSpeed="max">
+        <route edges="-1041264894 196941180#0 425239185#0 195499618#1"/>
+    </flow>
+
+    <flow id="av_r5" type="av" begin="0" end="3600" vehsPerHour="10" 
+          departLane="best" departSpeed="max">
+        <route edges="987806533#0 195499632 425465025"/>
+    </flow>
+
+    <flow id="av_r6" type="av" begin="0" end="3600" vehsPerHour="10" 
+          departLane="best" departSpeed="max">
+        <route edges="425474741#0 836789009#1 195499661#1"/>
+    </flow>
+</routes>

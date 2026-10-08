@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-08-25 10:39:43.427202 by Eclipse SUMO randomTrips.py v1_27_1+0000-7717f2379d9
+<configuration>
+    <net-file value="osm.net.xml.gz"/>
+    <output-trip-file value="osm.bus.trips.xml"/>
+    <route-file value="osm.bus.rou.xml"/>
+    <prefix value="bus"/>
+    <trip-attributes value="departLane=&quot;best&quot;"/>
+    <fringe-start-attributes value="departSpeed=&quot;max&quot;"/>
+    <vehicle-class value="bus"/>
+    <fringe-factor value="5"/>
+    <edge-permission value="bus"/>
+    <via-edge-types value="highway.motorway,highway.motorway_link,highway.trunk_link,highway.primary_link,highway.secondary_link,highway.tertiary_link"/>
+    <seed value="43"/>
+    <min-distance value="600.0"/>
+    <min-distance.fringe value="10.0"/>
+    <remove-loops value="True"/>
+    <insertion-density value="4.0"/>
+</configuration>
+-->
+
+<!-- generated on 2026-08-25T10:39:43.334566-06:00 by Eclipse SUMO duarouter 1.27.1
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml.gz"/>
+        <route-files value="osm.bus.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.bus.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <processing>
+        <remove-loops value="true"/>
+        <routing-threads value="8"/>
+    </processing>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus_bus" vClass="bus"/>
+    <vehicle id="bus0" type="bus_bus" depart="0.00" departLane="best" departSpeed="max">
+        <route edges="-1041264894 196941180#0 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus1" type="bus_bus" depart="42.09" departLane="best">
+        <route edges="195499652#3 195499637#4 987806540#1 425465025"/>
+    </vehicle>
+    <vehicle id="bus2" type="bus_bus" depart="84.17" departLane="best" departSpeed="max">
+        <route edges="425474741#0 195499689#1 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus3" type="bus_bus" depart="126.26" departLane="best">
+        <route edges="196941180#0 195499652#2 195499652#3 1104717793#1"/>
+    </vehicle>
+    <vehicle id="bus4" type="bus_bus" depart="168.35" departLane="best" departSpeed="max">
+        <route edges="987806533#0 195499632 425465025"/>
+    </vehicle>
+    <vehicle id="bus5" type="bus_bus" depart="210.44" departLane="best" departSpeed="max">
+        <route edges="425474741#0 195499689#1 195499652#2 195499652#3"/>
+    </vehicle>
+    <vehicle id="bus6" type="bus_bus" depart="252.52" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 195499652#2 195499652#3 195499661#1"/>
+    </vehicle>
+    <vehicle id="bus7" type="bus_bus" depart="294.61" departLane="best" departSpeed="max">
+        <route edges="425474741#0 836789009#1 195499661#1"/>
+    </vehicle>
+    <vehicle id="bus8" type="bus_bus" depart="336.70" departLane="best" departSpeed="max">
+        <route edges="-1041264894 196941180#0 425239185#0 836789009#1"/>
+    </vehicle>
+    <vehicle id="bus9" type="bus_bus" depart="378.79" departLane="best" departSpeed="max">
+        <route edges="987806533#0 987806533#1 836789009#1 195499661#1"/>
+    </vehicle>
+    <vehicle id="bus10" type="bus_bus" depart="420.87" departLane="best" departSpeed="max">
+        <route edges="-1041264894 196941180#0 425239185#0 987806540#1 425465025"/>
+    </vehicle>
+    <vehicle id="bus11" type="bus_bus" depart="462.96" departLane="best" departSpeed="max">
+        <route edges="426932460#0 195499616#1 195499616#2 195499631#0 1041264894"/>
+    </vehicle>
+    <vehicle id="bus12" type="bus_bus" depart="505.05" departLane="best" departSpeed="max">
+        <route edges="426932460#0 195499616#1 195499616#2 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus13" type="bus_bus" depart="547.14" departLane="best" departSpeed="max">
+        <route edges="425474741#0 195499689#1 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus14" type="bus_bus" depart="589.22" departLane="best">
+        <route edges="195499616#2 425239185#0 987806540#1 425465025"/>
+    </vehicle>
+    <vehicle id="bus15" type="bus_bus" depart="631.31" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 195499631#0 1041264894"/>
+    </vehicle>
+    <vehicle id="bus16" type="bus_bus" depart="673.40" departLane="best" departSpeed="max">
+        <route edges="426932460#0 195499637#4 195499618#1"/>
+    </vehicle>
+    <vehicle id="bus17" type="bus_bus" depart="715.49" departLane="best" departSpeed="max">
+        <route edges="-1041264894 196941180#0 195499652#2 195499652#3"/>
+    </vehicle>
+    <vehicle id="bus18" type="bus_bus" depart="757.57" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 195499631#0 1041264894"/>
+    </vehicle>
+    <vehicle id="bus19" type="bus_bus" depart="799.66" departLane="best" departSpeed="max">
+        <route edges="-1041264894 196941180#0 195499652#2 195499652#3 1104717793#1"/>
+    </vehicle>
+    <vehicle id="bus20" type="bus_bus" depart="841.75" departLane="best" departSpeed="max">
+        <route edges="-1041264894 196941180#0 195499652#2 195499652#3 195499661#1"/>
+    </vehicle>
+    <vehicle id="bus21" type="bus_bus" depart="883.84" departLane="best" departSpeed="max">
+        <route edges="-1041264894 196941180#0 425239185#0 987806540#1 425465025"/>
+    </vehicle>
+    <vehicle id="bus22" type="bus_bus" depart="925.92" departLane="best">
+        <route edges="987806533#1 836789009#1 1104717793#1"/>
+    </vehicle>
+    <vehicle id="bus23" type="bus_bus" depart="968.01" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 425239185#0 987806540#1"/>
+    </vehicle>
+    <vehicle id="bus24" type="bus_bus" depart="1010.10" departLane="best" departSpeed="max">
+        <route edges="987806533#0 195499632 425465025"/>
+    </vehicle>
+    <vehicle id="bus25" type="bus_bus" depart="1052.19" departLane="best">
+        <route edges="195499637#4 195499689#1 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus26" type="bus_bus" depart="1094.27" departLane="best" departSpeed="max">
+        <route edges="425474741#0 836789009#1"/>
+    </vehicle>
+    <vehicle id="bus27" type="bus_bus" depart="1136.36" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 425239185#0 987806540#1 425465025"/>
+    </vehicle>
+    <vehicle id="bus28" type="bus_bus" depart="1178.45" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 195499631#0 1041264894"/>
+    </vehicle>
+    <vehicle id="bus29" type="bus_bus" depart="1220.54" departLane="best">
+        <route edges="195499689#1 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus30" type="bus_bus" depart="1262.62" departLane="best" departSpeed="max">
+        <route edges="425474741#0 836789009#1 195499616#1"/>
+    </vehicle>
+    <vehicle id="bus31" type="bus_bus" depart="1304.71" departLane="best" departSpeed="max">
+        <route edges="426932460#0 195499637#4 987806540#1 425465025"/>
+    </vehicle>
+    <vehicle id="bus32" type="bus_bus" depart="1346.80" departLane="best">
+        <route edges="195499637#4 195499618#1"/>
+    </vehicle>
+    <vehicle id="bus33" type="bus_bus" depart="1388.89" departLane="best">
+        <route edges="195499616#2 195499652#2 195499652#3 1104717793#1"/>
+    </vehicle>
+    <vehicle id="bus34" type="bus_bus" depart="1430.97" departLane="best">
+        <route edges="836789009#1 195499616#1 195499616#2 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus35" type="bus_bus" depart="1473.06" departLane="best">
+        <route edges="987806533#1 836789009#1 1104717793#1"/>
+    </vehicle>
+    <vehicle id="bus36" type="bus_bus" depart="1515.15" departLane="best">
+        <route edges="196941180#0 195499652#2 195499652#3 1104717793#1"/>
+    </vehicle>
+    <vehicle id="bus37" type="bus_bus" depart="1557.24" departLane="best" departSpeed="max">
+        <route edges="195499637#0 195499637#4"/>
+    </vehicle>
+    <vehicle id="bus38" type="bus_bus" depart="1599.32" departLane="best" departSpeed="max">
+        <route edges="425474741#0 836789009#1 195499661#1"/>
+    </vehicle>
+    <vehicle id="bus39" type="bus_bus" depart="1641.41" departLane="best" departSpeed="max">
+        <route edges="987806533#0 987806533#1 836789009#1"/>
+    </vehicle>
+    <vehicle id="bus40" type="bus_bus" depart="1683.50" departLane="best" departSpeed="max">
+        <route edges="425474741#0 836789009#1 195499616#1"/>
+    </vehicle>
+    <vehicle id="bus41" type="bus_bus" depart="1725.59" departLane="best">
+        <route edges="195499616#1 195499616#2 195499631#0 1041264894"/>
+    </vehicle>
+    <vehicle id="bus42" type="bus_bus" depart="1767.67" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 195499652#2 195499652#3 1104717793#1"/>
+    </vehicle>
+    <vehicle id="bus43" type="bus_bus" depart="1809.76" departLane="best" departSpeed="max">
+        <route edges="425474741#0 195499689#1 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus44" type="bus_bus" depart="1851.85" departLane="best" departSpeed="max">
+        <route edges="195499637#0 195499616#1 195499616#2 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus45" type="bus_bus" depart="1893.94" departLane="best" departSpeed="max">
+        <route edges="195499637#0 195499637#4 195499689#1"/>
+    </vehicle>
+    <vehicle id="bus46" type="bus_bus" depart="1936.02" departLane="best" departSpeed="max">
+        <route edges="-1041264894 196941180#0 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus47" type="bus_bus" depart="1978.11" departLane="best" departSpeed="max">
+        <route edges="425474741#0 836789009#1"/>
+    </vehicle>
+    <vehicle id="bus48" type="bus_bus" depart="2020.20" departLane="best" departSpeed="max">
+        <route edges="987806533#0 987806533#1 195499689#1 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus49" type="bus_bus" depart="2062.29" departLane="best" departSpeed="max">
+        <route edges="426932460#0 195499616#1 195499616#2 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus50" type="bus_bus" depart="2104.37" departLane="best" departSpeed="max">
+        <route edges="425474741#0 836789009#1 195499661#1"/>
+    </vehicle>
+    <vehicle id="bus51" type="bus_bus" depart="2146.46" departLane="best" departSpeed="max">
+        <route edges="426932460#0 195499637#4 987806540#1 425465025"/>
+    </vehicle>
+    <vehicle id="bus52" type="bus_bus" depart="2188.55" departLane="best" departSpeed="max">
+        <route edges="426932460#0 195499616#1 195499616#2 195499631#0 1041264894"/>
+    </vehicle>
+    <vehicle id="bus53" type="bus_bus" depart="2230.64" departLane="best" departSpeed="max">
+        <route edges="-1041264894 196941180#0 425239185#0 987806540#1 425465025"/>
+    </vehicle>
+    <vehicle id="bus54" type="bus_bus" depart="2272.72" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 425239185#0 987806540#1 425465025"/>
+    </vehicle>
+    <vehicle id="bus55" type="bus_bus" depart="2314.81" departLane="best" departSpeed="max">
+        <route edges="987806533#0 987806533#1 836789009#1 1104717793#1"/>
+    </vehicle>
+    <vehicle id="bus56" type="bus_bus" depart="2356.90" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 195499652#2 195499652#3 195499661#1"/>
+    </vehicle>
+    <vehicle id="bus57" type="bus_bus" depart="2398.99" departLane="best" departSpeed="max">
+        <route edges="195499637#0 195499616#1 195499616#2 195499652#2"/>
+    </vehicle>
+    <vehicle id="bus58" type="bus_bus" depart="2441.07" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 425239185#0 195499618#1"/>
+    </vehicle>
+    <vehicle id="bus59" type="bus_bus" depart="2483.16" departLane="best">
+        <route edges="195499616#2 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus60" type="bus_bus" depart="2525.25" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 195499652#2 195499652#3 195499637#4"/>
+    </vehicle>
+    <vehicle id="bus61" type="bus_bus" depart="2567.34" departLane="best" departSpeed="max">
+        <route edges="195499637#0 195499616#1 195499616#2 425239185#0"/>
+    </vehicle>
+    <vehicle id="bus62" type="bus_bus" depart="2609.42" departLane="best" departSpeed="max">
+        <route edges="195499637#0 195499637#4"/>
+    </vehicle>
+    <vehicle id="bus63" type="bus_bus" depart="2651.51" departLane="best" departSpeed="max">
+        <route edges="425474741#0 195499689#1 195499631#0 1041264894"/>
+    </vehicle>
+    <vehicle id="bus64" type="bus_bus" depart="2693.60" departLane="best">
+        <route edges="195499616#2 425239185#0 987806540#1 425465025"/>
+    </vehicle>
+    <vehicle id="bus65" type="bus_bus" depart="2735.69" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 195499652#2 195499652#3 1104717793#1"/>
+    </vehicle>
+    <vehicle id="bus66" type="bus_bus" depart="2777.77" departLane="best" departSpeed="max">
+        <route edges="426932460#0 195499616#1 195499616#2 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus67" type="bus_bus" depart="2819.86" departLane="best" departSpeed="max">
+        <route edges="987806533#0 195499632 425465025"/>
+    </vehicle>
+    <vehicle id="bus68" type="bus_bus" depart="2861.95" departLane="best" departSpeed="max">
+        <route edges="425474741#0 836789009#1 1104717793#1"/>
+    </vehicle>
+    <vehicle id="bus69" type="bus_bus" depart="2904.04" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0"/>
+    </vehicle>
+    <vehicle id="bus70" type="bus_bus" depart="2946.12" departLane="best">
+        <route edges="195499616#1 195499616#2 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus71" type="bus_bus" depart="2988.21" departLane="best" departSpeed="max">
+        <route edges="425474741#0 195499689#1"/>
+    </vehicle>
+    <vehicle id="bus72" type="bus_bus" depart="3030.30" departLane="best" departSpeed="max">
+        <route edges="-1041264894 196941180#0 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus73" type="bus_bus" depart="3072.39" departLane="best" departSpeed="max">
+        <route edges="195499637#0 195499616#1 195499616#2 195499631#0"/>
+    </vehicle>
+    <vehicle id="bus74" type="bus_bus" depart="3114.47" departLane="best">
+        <route edges="196941180#0 196942744#2"/>
+    </vehicle>
+    <vehicle id="bus75" type="bus_bus" depart="3156.56" departLane="best" departSpeed="max">
+        <route edges="425474741#0 836789009#1"/>
+    </vehicle>
+    <vehicle id="bus76" type="bus_bus" depart="3198.65" departLane="best">
+        <route edges="195499637#4 195499689#1 195499631#0 1041264894"/>
+    </vehicle>
+    <vehicle id="bus77" type="bus_bus" depart="3240.74" departLane="best" departSpeed="max">
+        <route edges="987806533#0 195499632 425465025"/>
+    </vehicle>
+    <vehicle id="bus78" type="bus_bus" depart="3282.82" departLane="best">
+        <route edges="196941180#0 425239185#0 987806540#1 425465025"/>
+    </vehicle>
+    <vehicle id="bus79" type="bus_bus" depart="3324.91" departLane="best" departSpeed="max">
+        <route edges="426932460#0 195499616#1 195499616#2 195499631#0 1041264894"/>
+    </vehicle>
+    <vehicle id="bus80" type="bus_bus" depart="3367.00" departLane="best" departSpeed="max">
+        <route edges="987806533#0 195499632 425465025"/>
+    </vehicle>
+    <vehicle id="bus81" type="bus_bus" depart="3409.09" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 195499631#0 1041264894"/>
+    </vehicle>
+    <vehicle id="bus82" type="bus_bus" depart="3451.17" departLane="best" departSpeed="max">
+        <route edges="-1041264894 196941180#0 425239185#0 987806540#1 425465025"/>
+    </vehicle>
+    <vehicle id="bus83" type="bus_bus" depart="3493.26" departLane="best" departSpeed="max">
+        <route edges="427554520 1125943918#0 195499652#2 195499652#3 195499661#1"/>
+    </vehicle>
+    <vehicle id="bus84" type="bus_bus" depart="3535.35" departLane="best" departSpeed="max">
+        <route edges="195499637#0 195499616#1 195499616#2 425239185#0"/>
+    </vehicle>
+    <vehicle id="bus85" type="bus_bus" depart="3577.44" departLane="best" departSpeed="max">
+        <route edges="-1041264894 196941180#0 425239185#0 987806540#1 425465025"/>
+    </vehicle>
+</routes>
