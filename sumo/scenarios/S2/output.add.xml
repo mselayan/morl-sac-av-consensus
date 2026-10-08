@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-09-10 13:38:56.121812 by Eclipse SUMO osmWebWizard.py v1_27_1+0000-7717f2379d9
+  options: -o C:\Users\msela\OneDrive - University of Nebraska\UNL\Research\AV Research\AV_Behavior_Research\Phase 2 - Reworked\Simulation
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+   <edgeData id="wizard_example" period="3600" file="edgeData.xml"/>
+</additional>
