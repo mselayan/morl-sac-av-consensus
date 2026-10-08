@@ -1,0 +1,27 @@
+# SAC training settings (paper Sections 2.5 and 2.6)
+
+sim_config: configs/sim.yaml
+adapted_surface: models/adaptation/adapted_surface.joblib
+output_dir: outputs/training
+
+episodes: 1024
+workers: 16                     # parallel SUMO instances per batch
+base_port: 8813                 # worker i uses base_port + i
+min_buffer: 1000                # transitions before updates start
+max_updates: 1000               # gradient steps per batch
+batch_size: 256
+
+sac:
+  hidden: 256
+  lr: 3.0e-4
+  gamma: 0.99
+  tau: 0.005                    # target network blend rate
+  buffer_size: 1000000
+
+action: {low: 0.3, high: 2.0}   # modulation factor range
+smoothing: {tau: 0.85, b: 0.60} # EMA weight on the previous applied factor
+
+reward:
+  exponent: 0.5                 # r = -d^exponent + quality_weight * min(S, E, I)
+  quality_weight: 0.5
+  penalty_coef: 0.1             # co-occurrence penalty coef * n_violated^2

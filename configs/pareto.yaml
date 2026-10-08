@@ -1,0 +1,20 @@
+# Pareto surface settings (paper Section 2.3)
+
+metrics_config: configs/metrics.yaml   # source of the consensus thresholds
+input: data/processed/AV_Unified_Metrics.csv
+model_dir: models/pareto               # surface shipped with the repo
+output_dir: outputs/pareto             # regenerated surface, composites, figure
+
+qualify:
+  min_abs_accel_for_jerk: 0.3          # m/s^2, jerk ignored below this
+  min_decel: 0.3                       # m/s^2, decel ignored below this
+
+min_valid_dimensions: 2
+knn: {n_neighbors: 10, weights: distance}
+penalty_coef: 0.1                      # penalty = coef * n_violated^2
+floor: 0.5                             # min score in every dimension for a Pareto point
+
+plot:
+  axis_min: 0.4
+  cloud_sample: 3000
+  view: {elev: 22, azim: 140}

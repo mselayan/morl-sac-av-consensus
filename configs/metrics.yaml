@@ -1,0 +1,54 @@
+# Behavioral metric settings (paper Section 2.1)
+
+seed: 42
+processed_dir: data/processed
+model_dir: models/gssm          # pretrained GSSM shipped with the repo
+output_dir: outputs             # retrained GSSM and figures
+
+datasets:
+  FB: TGSIM_Foggy_Bottom_smoothed.csv
+  I-395: TGSIM_I-395_smoothed.csv
+
+# Shared leader and follower search
+neighbors:
+  vehicle_types: [hdv, av, bus, truck, motorcycle]
+  max_range: 120.0              # m
+  lane_half_width: 2.0          # m, lateral offset still counted as same lane
+  min_speed_heading: 0.3        # m/s, below this a vehicle is treated as stopped
+  heading_alignment: 0.7        # min cosine between headings
+  default_length: 4.5           # m
+
+gssm:
+  range_seconds: 3.0            # detection range = clip(v * 3, 20, 150)
+  range_min: 20.0
+  range_max: 150.0
+  min_speed_heading: 0.3
+  same_lane: {max_lateral: 2.0, min_heading_cos: 0.7}
+  vru_types: [pedestrian, bicycle, scooter]
+  heavy_types: [bus, truck]
+  filter: {min_abs_spacing: 0.5, max_abs_accel: 10.0}
+  train: {epochs: 50, batch_size: 512, lr: 3.0e-4, held_out: 0.3, test_of_held_out: 0.5}
+  gmm_components: 3
+
+pet:
+  box_half_size: 2.0            # m
+  history_s: 10.0
+  upper_limit_s: 10.0
+
+headway:
+  min_speed: 0.5                # m/s
+  upper_limit_s: 12.0
+
+gain:
+  window_s: 5.0
+  min_window_steps: 30
+  min_rms: 0.05                 # m/s^2, minimum AV acceleration RMS
+
+# Consensus thresholds (paper Table 1)
+thresholds:
+  maximum_risk: 2.07
+  pet: 2.25
+  headway: 4.0
+  gain: 1.0
+  abs_jerk: 2.5
+  decel: 2.0

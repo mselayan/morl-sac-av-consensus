@@ -1,0 +1,33 @@
+# SUMO simulation settings shared by baseline, training, and evaluation (paper Section 2.4)
+
+sumo:
+  cmd: [sumo]                   # e.g. [singularity, exec, sumo.sif, /usr/bin/sumo]
+  config: sumo/training/osm.sumocfg
+  step_length: 0.1              # s
+  duration_s: 3600
+  extra_args: [--no-step-log, "true", --no-warnings, "true"]
+
+vehicles:
+  av_prefix: av                 # vehicle types starting with this are AVs
+  hdv_type: veh_passenger       # vehicle type that receives sampled IDM parameters
+
+gssm_dir: models/gssm
+min_speed: 1.0                  # m/s, AV metrics and reward skipped below this
+
+# AV baseline IDM parameters (paper Table 2)
+av_idm: {tau: 1.55, min_gap: 5.22, decel: 1.02}
+
+# HDV IDM parameters: truncated normal [mean, sd, low, high] (paper Table 2)
+hdv_idm:
+  tau: [1.17, 1.07, 0.1, 5.0]
+  minGap: [3.28, 2.34, 0.1, 10.0]
+  accel: [1.84, 1.27, 0.1, 6.0]
+  decel: [1.29, 1.86, 0.1, 7.0]
+
+# Extended Asymmetric Behavior profile, sampled per AV at departure
+eab:
+  eta: [0.5, 1.5]
+  eps: [-0.15, 0.15]
+  t1: [0.0, 25.0]
+  leader_range: 50.0            # m
+  trigger_decel: -0.5           # m/s^2, leader decel that starts a disturbance

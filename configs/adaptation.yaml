@@ -1,0 +1,15 @@
+# Domain adaptation settings (paper Section 2.5.1)
+
+sim_config: configs/sim.yaml
+metrics_config: configs/metrics.yaml          # TGSIM thresholds
+pareto_config: configs/pareto.yaml            # jerk and decel qualification
+
+pareto_surface: models/pareto/TGSIM_pareto_surface.joblib
+tgsim_reference: models/adaptation/tgsim_reference.joblib
+unified_metrics: data/processed/AV_Unified_Metrics.csv   # used with --rebuild-reference
+
+baseline_csv: data/processed/baseline_metrics.csv
+output_dir: outputs/adaptation
+
+ecdf_points: 1001
+min_samples: 10

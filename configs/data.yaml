@@ -1,0 +1,25 @@
+# TGSIM data preparation settings
+
+raw_dir: data/raw
+processed_dir: data/processed
+
+smoothing:
+  sigma: 1.0            # Gaussian filter width (samples, 10 Hz)
+  min_traj_len: 5       # trajectories shorter than this are dropped
+
+datasets:
+  FB:
+    raw_file: Third_Generation_Simulation_Data__TGSIM__Foggy_Bottom_Trajectories.csv
+    out_file: TGSIM_Foggy_Bottom_smoothed.csv
+    y_extent_px: 19399              # max minus min y in reference image pixels
+    px_to_m: 0.0186613838586        # from TGSIM documentation
+    flip_y_kinematics: true         # also negate speed_kf_y and acceleration_kf_y
+    types: {0: pedestrian, 1: bicycle, 2: scooter, 3: hdv, 4: av, 5: motorcycle, 6: bus, 7: truck}
+
+  I-395:
+    raw_file: Third_Generation_Simulation_Data__TGSIM__I-395_Trajectories.csv
+    out_file: TGSIM_I-395_smoothed.csv
+    y_extent_px: 2530
+    px_to_m: 0.3
+    flip_y_kinematics: false
+    types: {1: hdv, 2: truck, 3: bus, 4: av}

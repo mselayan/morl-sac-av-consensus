@@ -1,0 +1,16 @@
+# Evaluation settings (paper Sections 3.4 and 4)
+
+sim_config: configs/sim.yaml       # training network and shared simulation settings
+train_config: configs/train.yaml   # action range, smoothing, reward
+actor: models/sac/sac_actor.pth
+adapted_surface: models/adaptation/adapted_surface.joblib
+output_dir: outputs/evaluation
+seed: 42
+
+# Unseen networks. AV route ids name the sub-scenario (e.g. S1a.0, S1b.3).
+scenarios:
+  S1: {config: sumo/scenarios/S1/osm.sumocfg, facility: Two-way stop-controlled intersection}
+  S2: {config: sumo/scenarios/S2/osm.sumocfg, facility: Signalized intersection (multimodal)}
+  S3: {config: sumo/scenarios/S3/osm.sumocfg, facility: Signalized arterial corridor}
+  S4: {config: sumo/scenarios/S4/osm.sumocfg, facility: Basic freeway segment}
+  S5: {config: sumo/scenarios/S5/osm.sumocfg, facility: Freeway weaving segment}

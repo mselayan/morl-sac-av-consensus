@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "avconsensus"
+version = "0.1.0"
+description = "Empirical Pareto-guided SAC for AV behavioral consensus"
+authors = [{ name = "Mohammad Elayan" }]
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=2.0",
+    "pandas",
+    "scipy",
+    "pyyaml",
+    "scikit-learn==1.6.1",
+    "torch",
+    "joblib",
+    "matplotlib",
+    "eclipse-sumo",
+    "traci",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
