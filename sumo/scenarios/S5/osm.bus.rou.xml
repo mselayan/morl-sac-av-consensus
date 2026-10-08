@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-09-10 19:48:19.862011 by Eclipse SUMO randomTrips.py v1_27_1+0000-7717f2379d9
+<configuration>
+    <net-file value="osm.net.xml.gz"/>
+    <output-trip-file value="osm.bus.trips.xml"/>
+    <route-file value="osm.bus.rou.xml"/>
+    <prefix value="bus"/>
+    <trip-attributes value="departLane=&quot;best&quot;"/>
+    <fringe-start-attributes value="departSpeed=&quot;max&quot;"/>
+    <vehicle-class value="bus"/>
+    <fringe-factor value="5"/>
+    <edge-permission value="bus"/>
+    <via-edge-types value="highway.motorway,highway.motorway_link,highway.trunk_link,highway.primary_link,highway.secondary_link,highway.tertiary_link"/>
+    <min-distance value="600.0"/>
+    <min-distance.fringe value="10.0"/>
+    <remove-loops value="True"/>
+    <insertion-density value="4.0"/>
+</configuration>
+-->
+
+<!-- generated on 2026-09-10T19:48:19.783481-06:00 by Eclipse SUMO duarouter 1.27.1
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml.gz"/>
+        <route-files value="osm.bus.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="osm.bus.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <processing>
+        <remove-loops value="true"/>
+        <routing-threads value="8"/>
+    </processing>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="bus_bus" vClass="bus"/>
+    <vehicle id="bus0" type="bus_bus" depart="0.00" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus1" type="bus_bus" depart="103.06" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus2" type="bus_bus" depart="206.11" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus3" type="bus_bus" depart="309.17" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus4" type="bus_bus" depart="412.23" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus5" type="bus_bus" depart="515.28" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus6" type="bus_bus" depart="618.34" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus7" type="bus_bus" depart="721.40" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus8" type="bus_bus" depart="824.45" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus9" type="bus_bus" depart="927.51" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus10" type="bus_bus" depart="1030.57" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus11" type="bus_bus" depart="1133.62" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus12" type="bus_bus" depart="1236.68" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus13" type="bus_bus" depart="1339.74" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus14" type="bus_bus" depart="1442.79" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus15" type="bus_bus" depart="1545.85" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus16" type="bus_bus" depart="1648.90" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus17" type="bus_bus" depart="1751.96" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus18" type="bus_bus" depart="1855.02" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus19" type="bus_bus" depart="1958.07" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus20" type="bus_bus" depart="2061.13" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus21" type="bus_bus" depart="2164.19" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus22" type="bus_bus" depart="2267.24" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus23" type="bus_bus" depart="2370.30" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus24" type="bus_bus" depart="2473.36" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus25" type="bus_bus" depart="2576.41" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus26" type="bus_bus" depart="2679.47" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus27" type="bus_bus" depart="2782.53" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus28" type="bus_bus" depart="2885.58" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus29" type="bus_bus" depart="2988.64" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus30" type="bus_bus" depart="3091.70" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus31" type="bus_bus" depart="3194.75" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus32" type="bus_bus" depart="3297.81" departLane="best" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="bus33" type="bus_bus" depart="3400.87" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="bus34" type="bus_bus" depart="3503.92" departLane="best" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+</routes>

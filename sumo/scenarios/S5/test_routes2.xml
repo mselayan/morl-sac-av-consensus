@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-09-10T21:26:00.471723-06:00 by Eclipse SUMO duarouter 1.27.1
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml.gz"/>
+        <route-files value="av_routes_S5.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="test_routes2.xml"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="av" length="4.50" minGap="5.22" maxSpeed="30.00" vClass="passenger" color="red" accel="1.87" decel="1.02" tau="1.55"/>
+    <vehicle id="S5a.0" type="av" depart="0.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.0" type="av" depart="0.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.0" type="av" depart="0.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.1" type="av" depart="36.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.2" type="av" depart="72.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.1" type="av" depart="72.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.1" type="av" depart="72.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.3" type="av" depart="108.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.4" type="av" depart="144.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.2" type="av" depart="144.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.2" type="av" depart="144.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.5" type="av" depart="180.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.6" type="av" depart="216.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.3" type="av" depart="216.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.3" type="av" depart="216.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.7" type="av" depart="252.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.8" type="av" depart="288.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.4" type="av" depart="288.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.4" type="av" depart="288.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.9" type="av" depart="324.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.10" type="av" depart="360.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.5" type="av" depart="360.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.5" type="av" depart="360.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.11" type="av" depart="396.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.12" type="av" depart="432.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.6" type="av" depart="432.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.6" type="av" depart="432.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.13" type="av" depart="468.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.14" type="av" depart="504.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.7" type="av" depart="504.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.7" type="av" depart="504.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.15" type="av" depart="540.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.16" type="av" depart="576.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.8" type="av" depart="576.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.8" type="av" depart="576.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.17" type="av" depart="612.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.18" type="av" depart="648.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.9" type="av" depart="648.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.9" type="av" depart="648.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.19" type="av" depart="684.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.20" type="av" depart="720.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.10" type="av" depart="720.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.10" type="av" depart="720.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.21" type="av" depart="756.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.22" type="av" depart="792.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.11" type="av" depart="792.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.11" type="av" depart="792.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.23" type="av" depart="828.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.24" type="av" depart="864.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.12" type="av" depart="864.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.12" type="av" depart="864.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.25" type="av" depart="900.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.26" type="av" depart="936.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.13" type="av" depart="936.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.13" type="av" depart="936.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.27" type="av" depart="972.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.28" type="av" depart="1008.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.14" type="av" depart="1008.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.14" type="av" depart="1008.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.29" type="av" depart="1044.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.30" type="av" depart="1080.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.15" type="av" depart="1080.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.15" type="av" depart="1080.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.31" type="av" depart="1116.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.32" type="av" depart="1152.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.16" type="av" depart="1152.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.16" type="av" depart="1152.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.33" type="av" depart="1188.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.34" type="av" depart="1224.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.17" type="av" depart="1224.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.17" type="av" depart="1224.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.35" type="av" depart="1260.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.36" type="av" depart="1296.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.18" type="av" depart="1296.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.18" type="av" depart="1296.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.37" type="av" depart="1332.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.38" type="av" depart="1368.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.19" type="av" depart="1368.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.19" type="av" depart="1368.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.39" type="av" depart="1404.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.40" type="av" depart="1440.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.20" type="av" depart="1440.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.20" type="av" depart="1440.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.41" type="av" depart="1476.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.42" type="av" depart="1512.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.21" type="av" depart="1512.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.21" type="av" depart="1512.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.43" type="av" depart="1548.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.44" type="av" depart="1584.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.22" type="av" depart="1584.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.22" type="av" depart="1584.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.45" type="av" depart="1620.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.46" type="av" depart="1656.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.23" type="av" depart="1656.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.23" type="av" depart="1656.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.47" type="av" depart="1692.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.48" type="av" depart="1728.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.24" type="av" depart="1728.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.24" type="av" depart="1728.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.49" type="av" depart="1764.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.50" type="av" depart="1800.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.25" type="av" depart="1800.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.25" type="av" depart="1800.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.51" type="av" depart="1836.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.52" type="av" depart="1872.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.26" type="av" depart="1872.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.26" type="av" depart="1872.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.53" type="av" depart="1908.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.54" type="av" depart="1944.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.27" type="av" depart="1944.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.27" type="av" depart="1944.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.55" type="av" depart="1980.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.56" type="av" depart="2016.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.28" type="av" depart="2016.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.28" type="av" depart="2016.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.57" type="av" depart="2052.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.58" type="av" depart="2088.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.29" type="av" depart="2088.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.29" type="av" depart="2088.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.59" type="av" depart="2124.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.60" type="av" depart="2160.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.30" type="av" depart="2160.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.30" type="av" depart="2160.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.61" type="av" depart="2196.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.62" type="av" depart="2232.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.31" type="av" depart="2232.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.31" type="av" depart="2232.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.63" type="av" depart="2268.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.64" type="av" depart="2304.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.32" type="av" depart="2304.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.32" type="av" depart="2304.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.65" type="av" depart="2340.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.66" type="av" depart="2376.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.33" type="av" depart="2376.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.33" type="av" depart="2376.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.67" type="av" depart="2412.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.68" type="av" depart="2448.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.34" type="av" depart="2448.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.34" type="av" depart="2448.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.69" type="av" depart="2484.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.70" type="av" depart="2520.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.35" type="av" depart="2520.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.35" type="av" depart="2520.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.71" type="av" depart="2556.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.72" type="av" depart="2592.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.36" type="av" depart="2592.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.36" type="av" depart="2592.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.73" type="av" depart="2628.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.74" type="av" depart="2664.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.37" type="av" depart="2664.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.37" type="av" depart="2664.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.75" type="av" depart="2700.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.76" type="av" depart="2736.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.38" type="av" depart="2736.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.38" type="av" depart="2736.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.77" type="av" depart="2772.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.78" type="av" depart="2808.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.39" type="av" depart="2808.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.39" type="av" depart="2808.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.79" type="av" depart="2844.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.80" type="av" depart="2880.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.40" type="av" depart="2880.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.40" type="av" depart="2880.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.81" type="av" depart="2916.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.82" type="av" depart="2952.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.41" type="av" depart="2952.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.41" type="av" depart="2952.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.83" type="av" depart="2988.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.84" type="av" depart="3024.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.42" type="av" depart="3024.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.42" type="av" depart="3024.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.85" type="av" depart="3060.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.86" type="av" depart="3096.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.43" type="av" depart="3096.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.43" type="av" depart="3096.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.87" type="av" depart="3132.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.88" type="av" depart="3168.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.44" type="av" depart="3168.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.44" type="av" depart="3168.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.89" type="av" depart="3204.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.90" type="av" depart="3240.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.45" type="av" depart="3240.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.45" type="av" depart="3240.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.91" type="av" depart="3276.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.92" type="av" depart="3312.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.46" type="av" depart="3312.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.46" type="av" depart="3312.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.93" type="av" depart="3348.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.94" type="av" depart="3384.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.47" type="av" depart="3384.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.47" type="av" depart="3384.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.95" type="av" depart="3420.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.96" type="av" depart="3456.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.48" type="av" depart="3456.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.48" type="av" depart="3456.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.97" type="av" depart="3492.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5a.98" type="av" depart="3528.00" departLane="free" departSpeed="max">
+        <route edges="42010878 176403020"/>
+    </vehicle>
+    <vehicle id="S5b.49" type="av" depart="3528.00" departLane="free" departSpeed="max">
+        <route edges="175952368 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+    <vehicle id="S5c.49" type="av" depart="3528.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403058"/>
+    </vehicle>
+    <vehicle id="S5a.99" type="av" depart="3564.00" departLane="free" departSpeed="max">
+        <route edges="42010878 175953453-AddedOnRampEdge 175953453 175953453-AddedOffRampEdge 176403020"/>
+    </vehicle>
+</routes>

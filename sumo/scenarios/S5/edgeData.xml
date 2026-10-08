@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-09-11T03:08:27.755779-06:00 by Eclipse SUMO sumo 1.25.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml.gz"/>
+        <route-files value="osm.bus.trips.xml,osm.passenger.trips.xml,osm.truck.trips.xml,av_routes_S5.rou.xml"/>
+        <additional-files value="output.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfos.xml"/>
+        <statistic-output value="stats.xml"/>
+    </output>
+
+    <time>
+        <step-length value="0.1"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+        <tls.actuated.jam-threshold value="30"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-steps value="18"/>
+        <device.rerouting.adaptation-interval value="10"/>
+    </routing>
+
+    <report>
+        <verbose value="true"/>
+        <no-warnings value="true"/>
+        <duration-log.statistics value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+    <traci_server>
+        <remote-port value="46353"/>
+    </traci_server>
+
+    <random_number>
+        <seed value="42"/>
+    </random_number>
+
+    <gui_only>
+        <gui-settings-file value="osm.view.xml"/>
+    </gui_only>
+
+</sumoConfiguration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="3600.00" id="wizard_example">
+        <edge id="175952368" sampledSeconds="13533.66" traveltime="43.53" overlapTraveltime="44.21" density="4.75" overlapDensity="4.82" laneDensity="4.75" occupancy="2.81" waitingTime="0.60" timeLoss="2769.96" speed="17.77" speedRelative="0.80" departed="314" arrived="0" entered="0" left="309" laneChangedFrom="0" laneChangedTo="0" teleported="3" flow="303.85"/>
+        <edge id="175953453" sampledSeconds="4210.64" traveltime="3.02" overlapTraveltime="3.32" density="20.77" overlapDensity="22.78" laneDensity="4.15" occupancy="2.26" waitingTime="0.00" timeLoss="1691.95" speed="17.14" speedRelative="0.59" departed="0" arrived="0" entered="1273" left="1272" laneChangedFrom="90" laneChangedTo="90" flow="1281.63"/>
+        <edge id="175953453-AddedOffRampEdge" sampledSeconds="6681.40" traveltime="4.99" overlapTraveltime="5.26" density="18.37" overlapDensity="19.36" laneDensity="3.06" occupancy="1.68" waitingTime="100.40" timeLoss="2163.09" speed="19.28" speedRelative="0.66" departed="0" arrived="0" entered="1272" left="1271" laneChangedFrom="332" laneChangedTo="332" flow="1274.95"/>
+        <edge id="175953453-AddedOnRampEdge" sampledSeconds="12669.11" traveltime="9.55" overlapTraveltime="9.99" density="35.66" overlapDensity="37.20" laneDensity="5.94" occupancy="3.38" waitingTime="1787.80" timeLoss="8230.99" speed="10.04" speedRelative="0.35" departed="0" arrived="0" entered="1275" left="1270" laneChangedFrom="553" laneChangedTo="555" teleported="1" flow="1288.74"/>
+        <edge id="176403020" sampledSeconds="20113.50" traveltime="24.62" overlapTraveltime="24.82" density="8.77" overlapDensity="8.79" laneDensity="2.19" occupancy="1.16" waitingTime="0.00" timeLoss="1958.63" speed="25.83" speedRelative="0.89" departed="0" arrived="813" entered="817" left="0" laneChangedFrom="198" laneChangedTo="198" flow="815.61"/>
+        <edge id="176403058" sampledSeconds="12869.61" traveltime="28.42" overlapTraveltime="28.68" density="6.10" overlapDensity="6.11" laneDensity="3.05" occupancy="1.70" waitingTime="0.00" timeLoss="857.91" speed="20.59" speedRelative="0.93" departed="0" arrived="449" entered="454" left="0" laneChangedFrom="79" laneChangedTo="79" flow="452.23"/>
+        <edge id="42010878" sampledSeconds="22025.63" traveltime="22.76" overlapTraveltime="23.01" density="10.65" overlapDensity="10.77" laneDensity="2.13" occupancy="1.12" waitingTime="0.00" timeLoss="2808.04" speed="24.91" speedRelative="0.86" departed="970" arrived="0" entered="0" left="966" laneChangedFrom="390" laneChangedTo="390" teleported="2" flow="955.40"/>
+    </interval>
+</meandata>

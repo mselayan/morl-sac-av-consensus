@@ -1,0 +1,10 @@
+<routes>
+    <vType id="av" vClass="passenger" accel="1.87" decel="1.02"
+           tau="1.55" minGap="5.22" length="4.5" maxSpeed="30"
+           color="1,0,0"/>
+
+    <flow id="S4a" type="av" begin="0" end="3600" vehsPerHour="100"
+          departLane="best" departSpeed="max">
+        <route edges="40547178"/>
+    </flow>
+</routes>

@@ -1,0 +1,6 @@
+<configuration>
+    <bbox value="-96.24391121308923,41.09538253698117,-96.16408867280605,41.1441871903208"/>
+    <output-dir value="C:\Users\msela\AppData\Local\Temp\tmp_hvz2ngm"/>
+    <road-types value="{&quot;Highway&quot;: [&quot;motorway&quot;, &quot;motorway_link&quot;, &quot;trunk&quot;, &quot;trunk_link&quot;, &quot;primary&quot;, &quot;primary_link&quot;], &quot;Railway&quot;: [], &quot;Aeroway&quot;: [], &quot;Waterway&quot;: [], &quot;Aerialway&quot;: [], &quot;Route&quot;: []}"/>
+    <gzip value="True"/>
+</configuration>

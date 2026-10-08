@@ -1,0 +1,9 @@
+<routes>
+    <vType id="av" vClass="passenger" accel="1.87" decel="1.02"
+           tau="1.55" minGap="5.22" length="4.5" maxSpeed="30"
+           color="1,0,0"/>
+
+    <flow id="S3a" type="av" begin="0" end="3600" vehsPerHour="100"
+          departLane="free" departSpeed="max"
+          from="389452026" to="478532545#0"/>
+</routes>

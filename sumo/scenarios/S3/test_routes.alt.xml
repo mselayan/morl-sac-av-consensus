@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2026-09-10T20:58:16.112385-06:00 by Eclipse SUMO duarouter 1.27.1
+<duarouterConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="osm.net.xml.gz"/>
+        <route-files value="av_routes_S3.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="test_routes.xml"/>
+    </output>
+
+    <report>
+        <ignore-errors value="true"/>
+    </report>
+
+</duarouterConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="av" length="4.50" minGap="5.22" maxSpeed="30.00" vClass="passenger" color="red" accel="1.87" decel="1.02" tau="1.55"/>
+    <vehicle id="S3a.0" type="av" depart="0.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.1" type="av" depart="36.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.2" type="av" depart="72.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.3" type="av" depart="108.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.4" type="av" depart="144.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.5" type="av" depart="180.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.6" type="av" depart="216.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.7" type="av" depart="252.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.8" type="av" depart="288.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.9" type="av" depart="324.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.10" type="av" depart="360.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.11" type="av" depart="396.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.12" type="av" depart="432.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.13" type="av" depart="468.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.14" type="av" depart="504.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.15" type="av" depart="540.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.16" type="av" depart="576.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.17" type="av" depart="612.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.18" type="av" depart="648.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.19" type="av" depart="684.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.20" type="av" depart="720.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.21" type="av" depart="756.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.22" type="av" depart="792.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.23" type="av" depart="828.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.24" type="av" depart="864.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.25" type="av" depart="900.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.26" type="av" depart="936.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.27" type="av" depart="972.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.28" type="av" depart="1008.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.29" type="av" depart="1044.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.30" type="av" depart="1080.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.31" type="av" depart="1116.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.32" type="av" depart="1152.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.33" type="av" depart="1188.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.34" type="av" depart="1224.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.35" type="av" depart="1260.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.36" type="av" depart="1296.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.37" type="av" depart="1332.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.38" type="av" depart="1368.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.39" type="av" depart="1404.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.40" type="av" depart="1440.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.41" type="av" depart="1476.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.42" type="av" depart="1512.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.43" type="av" depart="1548.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.44" type="av" depart="1584.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.45" type="av" depart="1620.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.46" type="av" depart="1656.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.47" type="av" depart="1692.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.48" type="av" depart="1728.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.49" type="av" depart="1764.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.50" type="av" depart="1800.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.51" type="av" depart="1836.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.52" type="av" depart="1872.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.53" type="av" depart="1908.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.54" type="av" depart="1944.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.55" type="av" depart="1980.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.56" type="av" depart="2016.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.57" type="av" depart="2052.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.58" type="av" depart="2088.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.59" type="av" depart="2124.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.60" type="av" depart="2160.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.61" type="av" depart="2196.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.62" type="av" depart="2232.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.63" type="av" depart="2268.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.64" type="av" depart="2304.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.65" type="av" depart="2340.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.66" type="av" depart="2376.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.67" type="av" depart="2412.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.68" type="av" depart="2448.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.69" type="av" depart="2484.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.70" type="av" depart="2520.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.71" type="av" depart="2556.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.72" type="av" depart="2592.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.73" type="av" depart="2628.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.74" type="av" depart="2664.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.75" type="av" depart="2700.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.76" type="av" depart="2736.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.77" type="av" depart="2772.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.78" type="av" depart="2808.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.79" type="av" depart="2844.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.80" type="av" depart="2880.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.81" type="av" depart="2916.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.82" type="av" depart="2952.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.83" type="av" depart="2988.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.84" type="av" depart="3024.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.85" type="av" depart="3060.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.86" type="av" depart="3096.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.87" type="av" depart="3132.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.88" type="av" depart="3168.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.89" type="av" depart="3204.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.90" type="av" depart="3240.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.91" type="av" depart="3276.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.92" type="av" depart="3312.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.93" type="av" depart="3348.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.94" type="av" depart="3384.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.95" type="av" depart="3420.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.96" type="av" depart="3456.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.97" type="av" depart="3492.00" departLane="best" departSpeed="max">
+        <routeDistribution last="1">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.98" type="av" depart="3528.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="S3a.99" type="av" depart="3564.00" departLane="best" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.95" probability="0.61303587" edges="389452026 478532545#0"/>
+            <route cost="94.24" probability="0.38696413" edges="389452026 51804980#0 698836021#0 698836021#5 473487418#0 356925128#0 356925127#0 454604937#0 478532545#0"/>
+        </routeDistribution>
+    </vehicle>
+</routes>
